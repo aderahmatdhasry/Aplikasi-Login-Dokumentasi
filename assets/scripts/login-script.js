@@ -29,6 +29,7 @@ const expectedEmail = 'admin@dicoding.com';
 
 /**
 * Membuat variabel expectedPassword untuk menyimpan informasi password sementara.
+* @constant {string}
 */
 const expectedPassword = 'superpassword';
 
