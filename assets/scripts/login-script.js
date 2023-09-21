@@ -38,7 +38,6 @@ const expectedPassword = 'superpassword';
 loginFormElement.addEventListener('submit', function(event) {
   event.preventDefault();
 
-
   /**
   * Membuat variabel email untuk menyimpan nilai email yang didapatkan saat button ditekan.
   * @constant {string}
@@ -51,7 +50,6 @@ loginFormElement.addEventListener('submit', function(event) {
   * @constant {string}
   */
   const password = inputPasswordElement.value;
-
 
   /* Comment : Memastikan bahwa nilai email dan password sesuai dengan nilai yang tersimpan. */
   if (email == expectedEmail && password == expectedPassword) {
